@@ -7,5 +7,6 @@ fn main() {
     //env::args() calls the method args from this module
     
     println!("{} arguments passed", args.len());
+    //prints out the # of arguments that this program was started with (cargo run in the terminal), .len() counts the args
     
 }
